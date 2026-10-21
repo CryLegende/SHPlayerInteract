@@ -1,0 +1,25 @@
+# SHPlayerInteract Configuration
+
+# Debug mode - set to true to see additional information in console
+debug: false
+
+# Worlds where the plugin will work
+# If empty, the plugin won't work in any world
+whitelist-worlds:
+  - 'spawn'
+  - 'SuperiorWorld'
+
+# WorldGuard regions where the plugin won't work
+# Players inside these regions won't be able to use the plugin
+blacklist-regions:
+  - '1vs1'
+  - 'minikoth'
+
+# Commands executed by the player when shift+right-clicking on another player
+# %player% will be replaced with the name of the clicked player
+player-commands:
+  - 'infos %player%'
+
+# Commands executed by the console when a player shift+right-clicks on another player
+# %player% will be replaced with the name of the clicked player
+console-commands: []

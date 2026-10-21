@@ -1,0 +1,21 @@
+name: SHPlayerInteract
+version: '${project.version}'
+main: org.Cry_Legende.sHPlayerInteract.SHPlayerInteract
+api-version: '1.20'
+author: Cry_Legende
+depend: [WorldGuard]
+softdepend: [Vault]
+
+commands:
+  shplayerinteract:
+    description: Main command for SHPlayerInteract plugin
+    usage: /<command> [reload]
+    aliases: [shpi]
+
+permissions:
+  shplayerinteract.use:
+    description: Allows users to interact with players using shift+right click
+    default: op
+  shplayerinteract.reload:
+    description: Allows reloading the plugin configuration
+    default: op
